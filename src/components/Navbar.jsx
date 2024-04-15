@@ -10,7 +10,7 @@ function Navbar() {
       <div className="w-screen h-10">
         <div className="mx-24  h-full flex justify-between items-center">
           <div>LOGO</div>
-          <div className="flex gap-10">
+          <div className="flex gap-11">
             {navLinks.map((nav) => (
               <Link key={nav.id} to={nav.path}>
                 <p className="text-xs">{nav.title}</p>
